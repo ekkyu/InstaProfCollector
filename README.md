@@ -1,14 +1,14 @@
 # InstaProfCollector
 
 ## Overview
-Instagramアカウントのプロフィール情報をに抜き出してCSVファイルに書き出します。
+Instagramアカウントのプロフィール情報及びアイコンを抜き出してCSVファイルとimgフォルダに書き出す。
 
 ## Description
 まず、アカウントIDのリストを用意する。
 
 ### user_id.json
 
-usernameを以下のように指定する
+usernameを以下のように指定する。
 
 ```
 [
@@ -18,18 +18,18 @@ usernameを以下のように指定する
 ]
 ```
 
-次に以下を実行
+次に以下を実行。
 ```
 Python3 instaprofcollector.py
 ```
 
-## img
+## img/
 
-pngファイルのアイコン画像がたまる
+pngファイルのアイコン画像がたまる。
 
 ## data.csv
 
-以下のように取得したデータがたまる
+以下のように取得したデータがたまる。
 
 | "key"         | 説明        |
 |----------------|---------------|
